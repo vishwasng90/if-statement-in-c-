@@ -10,15 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int time = 20;
-            if (time > 20)
+            int x = 20;
+            int y = 18;
+            if (x > y)
             {
-                Console.WriteLine("Good Morning");
-
-            }
-            else
-            {
-                Console.WriteLine("Good Evening");
+                Console.WriteLine("x is greter than y");
                 Console.ReadLine();
             }
         }
